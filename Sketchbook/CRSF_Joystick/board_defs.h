@@ -7,8 +7,8 @@
 
 // PiPico
 #if BOARD_ID == 1
-    #define CRSF_TX 4  // physical 6
-    #define CRSF_RX 5  // physical 7
+    #define CRSF_TX 16  // physical 21
+    #define CRSF_RX 17 // physical 22
 
     #define LED_TYPE LED_TYPE_SINGLE
     #define LED_PIN 25
