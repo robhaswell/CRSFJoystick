@@ -46,7 +46,7 @@ void packetChannels()
       CHANNEL_2_HIGH_EP,         \
       JOYSTICK_LOW,              \
       JOYSTICK_HIGH);
-    gamepad.SetY(map_data);
+    gamepad.SetY(-map_data); // inverted
     
     // Rx - Channel 3 - T
     channel_data = crsf.getChannel(3);
